@@ -1,0 +1,7 @@
+syn_graph.txt contains a synthetic graph. The format is as following:
+
+  - the first line (line 0) contains the number of nodes (= 100)
+  - Line1-100: each line i contains the neighbors of node i-1 (node index starts from 0)
+    E.g., in line 1: 
+      2 3 4 5 ...
+    means the graph contains (directed) links: (0,2), (0,3), (0,4), (0,5), ...
